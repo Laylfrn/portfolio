@@ -1,0 +1,125 @@
+p {
+    font-family: Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.brand-name {
+    font-size: 30px;
+    font-weight: bold;
+    vertical-align: middle;
+    display: inline-block;
+    
+}
+
+.pro-color {
+    color: rgb(30, 30, 30);
+}
+
+.logo {
+    width: 50px;
+    object-fit: cover;
+    vertical-align: middle;
+    object-position: center;
+    display: inline-block;
+}
+
+.portfolio-name {
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 600px;
+}
+
+body {
+    background-color: rgb(43, 223, 147);
+}
+
+.tags {
+    margin-left: 120px;
+    font-size: 23px;
+    display: inline-block;
+    vertical-align: middle;
+    transition: opacity 0.25s;
+}
+
+.tags:hover {
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.home-tag {
+
+}
+
+.about-tag {
+
+}
+
+.contact-tag {
+
+}
+
+.service-tag {
+
+}
+
+.introduction {
+    display: inline-block;
+    margin-left: 70px;
+    margin-top: 180px;
+    margin-right: 500px;
+}
+
+.greeting {
+    font-size: 60px;
+}
+
+.name-intro {
+    font-size: 60px;
+}
+
+.name {
+    font-weight: bold;
+}
+
+.status {
+    font-size: 60px;
+}
+
+.horizontal-adjustment {
+    border: 2px solid rgb(30, 30, 30);
+    width: 90%;
+    margin-left: 0;
+}
+
+.horizontal-positioning {
+    margin-top: 50px;
+}
+
+.objective {
+    font-size: 35px;
+    width: 1000px;
+}
+
+.objective-positioning {
+    display: inline-block;
+    margin-top: 60px;
+    margin-left: 70px;
+}
+
+.profile-position {
+    margin-top: 150px;
+    display: inline-block;
+}
+
+.profile-picture {
+    border-radius: 300px;
+    width: 600px;
+}
+
+.content {
+    display: inline-block;
+    vertical-align: top;
+}
+
