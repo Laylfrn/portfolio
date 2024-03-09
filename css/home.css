@@ -35,35 +35,6 @@ body {
     background-color: rgb(43, 223, 147);
 }
 
-.tags {
-    margin-left: 120px;
-    font-size: 23px;
-    display: inline-block;
-    vertical-align: middle;
-    transition: opacity 0.25s;
-}
-
-.tags:hover {
-    cursor: pointer;
-    opacity: 0.5;
-}
-
-.home-tag {
-
-}
-
-.about-tag {
-
-}
-
-.contact-tag {
-
-}
-
-.service-tag {
-
-}
-
 .introduction {
     display: inline-block;
     margin-left: 70px;
@@ -123,3 +94,23 @@ body {
     vertical-align: top;
 }
 
+.sample {
+    display: inline-block;
+    vertical-align: middle;
+    
+}
+
+.nav-manipulation {
+    text-decoration: none;
+    color: black;
+    font-size: 23px;
+    margin-left: 120px;
+}
+
+.nav-manipulation:hover {
+    color: white;
+}
+
+.nav-manipulation:active {
+    color: black;
+}
