@@ -32,11 +32,16 @@ p {
 }
 
 body {
+    margin: 0;
+}
+
+.home-background {
     background-color: rgb(92, 89, 89);
     background-image: url("../img/background2.jpg");
-    /* background-repeat: no-repeat; */
-    /* background-position: center; */
-    /* background-attachment: fixed; */
+    background-repeat: no-repeat;
+    background-position: center; 
+    background-attachment: fixed;
+    padding-bottom: 1000px;
 }
 
 .introduction {
