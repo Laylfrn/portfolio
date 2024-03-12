@@ -37,7 +37,7 @@ body {
 
 .home-background {
     background-color: rgb(92, 89, 89);
-    background-image: url('../background3.jpg');
+    background-image: url('../img/background3.jpg');
     background-repeat: no-repeat;
     background-position: center; 
     background-attachment: fixed;
