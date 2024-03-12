@@ -32,7 +32,8 @@ p {
 }
 
 body {
-    background-image: url(../img/background2.jpg);
+    background-color: rgb(92, 89, 89);
+    background-image: url("../img/background2.0.jpg");
     background-repeat: no-repeat;
     background-position: center;
     background-attachment: fixed;
