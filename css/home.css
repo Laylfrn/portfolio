@@ -30,20 +30,13 @@ p {
     margin-left: 50px;
     margin-right: 600px;
 }
-
 body {
-    margin: 0;
-}
-
-/* .home-background {
     background-color: rgb(92, 89, 89);
-    /* background-image: url('../img/background3.jpg');
     background-repeat: no-repeat;
-    background-position: center; 
-    background-attachment: fixed; */
-    padding-bottom: 1000px;
-} */
-
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}
 .introduction {
     display: inline-block;
     margin-left: 70px;
