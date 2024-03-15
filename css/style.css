@@ -1,3 +1,6 @@
+/*
+    HOME PAGE
+*/
 .brand-name {
     font-size: 30px;
     font-weight: bold;
@@ -110,4 +113,78 @@
     border: 2px solid rgb(199, 197, 194);
     width: 100%;
     border-radius: 3px;
+}
+
+/*
+    ABOUT PAGE
+*/
+
+.image-background {
+    background-image: linear-gradient(to bottom, rgba(159, 38, 0, 1), rgba(165, 40, 0, 0%));
+    height: 400px;
+    width: 400px;
+    border-radius: 25px;
+    margin-left: 250px;
+    margin-bottom: 50px;
+}
+
+#about-profile {
+    margin-top: 25px;
+    margin-left: 100px;
+}
+
+.resume-button {
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-size: 25px;
+    font-weight: 700;
+    border-radius: 20px;
+    background-image: linear-gradient(to right, #FF512F 0%, #F09819  51%, #FF512F  100%);
+    border: none;
+    margin-left: 330px;
+    transition: opacity 0.25s;
+}
+
+.resume-button:hover {
+    opacity: 0.5;
+    cursor: pointer;
+}
+
+.container-1 {
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 250px;
+}
+
+.info {
+    height: 600px;
+    width: 500px;
+    padding: 30px;
+    border-radius: 50px;
+    display: inline-block;
+    background-image: linear-gradient(to bottom, rgba(159, 38, 0, 1), rgba(165, 40, 0, 0%));
+}
+
+.greet {
+    font-size: 35px;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.small-intro {
+    font-size: 27px;
+    margin-bottom: 30px;
+    width: 505px;
+}
+
+.hr {
+    border: 5px solid rgb(199, 197, 194);
+    border-radius: 4px;
+}
+
+.about-container {
+    margin-bottom: 100px;
 }
