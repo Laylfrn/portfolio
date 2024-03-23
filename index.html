@@ -22,9 +22,9 @@
                 </div>
                 <div class="sample">
                     <nav>
-                        <a class="nav-manipulation" href="#">HOME</a>
-                        <a class="nav-manipulation" href="#">ABOUT</a>
-                        <a class="nav-manipulation" href="#">CONTACT</a>
+                        <a class="nav-manipulation" id="home">HOME</a>
+                        <a class="nav-manipulation" href="#to-about">ABOUT</a>
+                        <a class="nav-manipulation" href="#to-contact">CONTACT</a>
                         <a class="nav-manipulation" href="#">SERVICE</a>
                     </nav>
                 </div>
@@ -70,7 +70,7 @@
                 </div>
 
                         <!--About me-->
-                <div class="about-container">
+                <div id="to-about" class="about-container">
                     <div>
                         <h1>ABOUT ME</h1>
                     </div>
@@ -81,9 +81,12 @@
                             </div>
                         </div>
                         <div>
-                            <button class="resume-button">
-                                Download resume
-                            </button>
+                            <a href="Layl-Resume.pdf" download>
+                                <button class="resume-button">
+                                    Download resume
+                                </button>
+                            </a>
+                            
                         </div>
                     </div>
                         <div class="info">
@@ -105,7 +108,81 @@
                                     I offer a beginner's perspective with a hunger to grow and a commitment to delivering quality work.
                                 </p>
                         </div>
+                    <div>
+                        <a href="#home">
+                            <img class="arrow-gif" src="img/arrow-up.gif" alt="arrow-gif">
+                        </a>
+                    </div>
                 </div>
+                <div>
+                    <hr id="bottom-line">
+                </div>
+
+                        <!--Contact me-->
+                <div id="to-contact" class="contact-container">
+                    <div class="contact-content">
+                        <div>
+                            <h2 class="contact-now">Get in touch</h2>
+                        </div>
+                        <div>
+                            <hr id="contact-line">
+                        </div>
+                        <div class="info-container">
+                            <div>
+                                <a href="https://github.com/Laylfrn" target="_blank">
+                                    <img class="contact-logo" src="img/github-logo.png" alt="github-logo">
+                                </a>
+                                <p class="contact-info">
+                                    - laylfrn
+                                </p>
+                            </div>
+                            <div>
+                                <a href="https://www.facebook.com/lyle.diano" target="_blank">
+                                    <img class="contact-logo" src="img/facebook-logo.png" alt="github-logo">
+                                </a>
+                                <p class="contact-info">
+                                    - Lyle Efren Verano
+                                </p>
+                            </div>
+                            <div>
+                                <a href="mailto:verano.lyle@gmail.com">
+                                    <img class="contact-logo" src="img/gmail-logo.png" alt="github-logo">
+                                </a>
+                                <p class="contact-info">
+                                    - verano.lyle@gmail.com
+                                </p>
+                            </div>
+                            <div>
+                                <a href=""></a>
+                                <img class="contact-logo" src="img/contact-logo.png" alt="github-logo">
+                                <p class="contact-info">
+                                    - +659653752453
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="form-background">
+                        <div>
+                            <form action="" method="post">
+                                <input class="inputs" id="fullname" type="text" placeholder="Full name" minlength="8">
+                                <input class="inputs" id="email" type="email" placeholder="Email">
+                                <input class="inputs" id="subject" type="text" placeholder="Subject">
+                                <textarea name="comment" id="comment" cols="30" rows="10" placeholder="Message"></textarea>
+                                <div>
+                                    <input type="reset" class="reset-button">
+                                    <img class="gif-cat-inverse" src="img/worried-gif.gif" alt="pointing-gif">
+                                    <img class="gif-cat" src="img/pointing-gif.gif" alt="pointing-gif">
+                                    <input type="submit" class="submit-button">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div>
+                    <a href="#home">
+                        <img class="arrow-gif" src="img/arrow-up.gif" alt="arrow-gif">
+                    </a>
+                    </div>
                 <div>
                     <hr id="bottom-line">
                 </div>
