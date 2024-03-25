@@ -6,7 +6,7 @@
     font-weight: bold;
     vertical-align: middle;
     display: inline-block;
-    
+
 }
 
 .pro-color {
@@ -91,7 +91,7 @@
 .sample {
     display: inline-block;
     vertical-align: middle;
-    
+
 }
 
 .nav-manipulation {
@@ -141,7 +141,7 @@
     font-size: 25px;
     font-weight: 700;
     border-radius: 20px;
-    background-image: linear-gradient(to right, #FF512F 0%, #F09819  51%, #FF512F  100%);
+    background-image: linear-gradient(to right, #FF512F 0%, #F09819 51%, #FF512F 100%);
     border: none;
     margin-left: 330px;
     transition: opacity 0.25s;
@@ -255,6 +255,12 @@
     border: none;
     text-align: center;
     color: black;
+    transition: opacity 0.30s;
+}
+
+.inputs:hover {
+    cursor: pointer;
+    opacity: 0.5;
 }
 
 #comment {
@@ -311,6 +317,12 @@
     font-weight: 700;
     border-radius: 10px;
     border: none;
+    transition: opacity 0.30s;
+}
+
+.submit-button:hover {
+    cursor: pointer;
+    opacity: 0.5;
 }
 
 .reset-button {
@@ -324,4 +336,10 @@
     margin-right: 58px;
     border-radius: 10px;
     border: none;
+    transition: opacity 0.30s;
+}
+
+.reset-button:hover {
+    cursor: pointer;
+    opacity: 0.5;
 }
